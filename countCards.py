@@ -5,7 +5,7 @@ from cardModelTrainer import CardModelTrainer
 
 class CountCards(WebcamCardClassifier):
     def __init__(self, model_path, threshold=0.5,numDecks=1):
-        super().__init__(model_path, threshold,camNum=1)
+        super().__init__(model_path, threshold,camNum=0)
         self.runningCount = 0  # Global class variable for counting cards
         self.lastCard = None   # Tracks the last detected card
         self.consecutiveCount = 0  # Tracks the number of consecutive frames with the same card
