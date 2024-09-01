@@ -1,3 +1,7 @@
+'''
+    Module for loading from custom CNN (in progress)
+    Must pull from submodules to use this method 
+'''
 import torch
 import torch.nn as nn
 import torchvision.transforms as transforms
