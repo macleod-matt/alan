@@ -21,17 +21,14 @@ class CountCards(WebcamCardClassifier):
         elif card_name[0] in ["10", "J", "Q", "K", "A"] and card_name in self.AvailableCards:
             self.runningCount -= 1
             self.AvailableCards.remove(card_name)
-        print(f">>>Running Count Updated: {self.runningCount}")  # Debug print
 
     def check_consecutive_frames(self, card_name):
         print(f"Checking card: {card_name}")  # Debug print
         if card_name == self.lastCard:
             self.consecutiveCount += 1
-            print(f"Consecutive count for {card_name}: {self.consecutiveCount}")  # Debug print
         else:
             self.lastCard = card_name
             self.consecutiveCount = 1
-            print(f"Card changed to {card_name}. Resetting consecutive count.")  # Debug print
 
         if self.consecutiveCount >= 5:
             if card_name in self.AvailableCards:
@@ -55,9 +52,7 @@ class CountCards(WebcamCardClassifier):
             for result in results.boxes.data.tolist():
                 class_id = result[-1]  # Assuming class_id is the last item
                 card_name = results.names[int(class_id)]
-                print(f"Detected card: {card_name}")  # Debug print
                 return card_name
-        print("No valid card detected.")  # Debug print
         return None
 
     def superimpose_running_count(self, frame):
