@@ -2,6 +2,9 @@
 # Meet Alan
 ![Cover Photo](media/alanImage.jpg)
 
+# Video Demo 
+![Demo GIF](media/demo.gif)
+
 ## Overview
 
 This project involves the creation of a Convolutional Neural Network (CNN) trained on a custom dataset of playing cards. The goal of the project is to accurately classify playing cards, detect them within an image using bounding boxes, and maintain a running count, particularly useful for games like Blackjack.
@@ -48,8 +51,6 @@ First, clone the repository to your local machine using the following command:
 3. python alan.py
 
 ```
-
-## TODO: Video Demo 
 
 Next Updates: 
 1. Multiple deck live running count count and true count
