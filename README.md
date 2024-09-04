@@ -2,8 +2,6 @@
 # Meet Alan
 ![Cover Photo](media/alanImage.jpg)
 
-# Video Demo 
-![Demo GIF](media/demo.gif)
 
 ## Overview
 
@@ -17,6 +15,9 @@ The model was trained using the YOLOv8 (You Only Look Once) architecture, which 
 - **Running Count for Blackjack**: Keeping a real-time count of cards, a technique often used in Blackjack to improve game strategy.
 
 This comprehensive setup allows for an automated, intelligent card detection system, suitable for gaming, statistical analysis, or other applications where card detection and counting are needed.
+
+# Video Demo 
+![Demo GIF](media/demo.gif)
 
 ## Files in This Repository
 
