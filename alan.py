@@ -9,7 +9,7 @@ cwd = os.getcwd()
 if __name__ == "__main__": 
     model_path = f"{cwd}\\playing-card-classifier\\weights\\best.pt"
     yaml_data = "data\\data.yaml" 
-    if platform == "win32":
+    if not (platform == "win32"):
         model_path = model_path.replace("\\","/")
         yaml_data = yaml_data.replace("\\","/")
 
