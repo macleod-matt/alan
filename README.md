@@ -41,7 +41,7 @@ This file lists all the dependencies required to run the scripts in this project
 ```bash
 ## Quick Start Guide
 
-### Step 1: Clone the Repository
+### Running the app
 
 First, clone the repository to your local machine using the following command:
 
