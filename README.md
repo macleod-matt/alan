@@ -19,7 +19,7 @@ This comprehensive setup allows for an automated, intelligent card detection sys
 # Video Demo 
 ![Demo GIF](media/demo.gif)
 
-## Files in This Repository
+#Files in This Repository
 
 ### 1. `alan.py`
 This Module  contains utilities and helper functions used across the project. It includes various utility functions that support image processing, data manipulation, and other common tasks required by the other scripts.
@@ -38,13 +38,10 @@ This Module  extends the functionality of `cardClassifier.py` by allowing real-t
 
 ### 6. `requirements.txt`
 This file lists all the dependencies required to run the scripts in this project. Ensure that you install these packages using `pip` to avoid any compatibility issues.
-```bash
+
 ## Quick Start Guide
 
-### Running the app
-
-First, clone the repository to your local machine using the following command:
-
+```bash
 1. git clone https://github.com/macleod-matt/alan.git
 
 2. pip install -r requirements.txt
